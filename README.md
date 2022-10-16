@@ -1,4 +1,4 @@
-#React Anime App
+# React Anime App
 
 Aplication who list animes and mangas from the API [MyAnimeList](https://url) (editar)
 
