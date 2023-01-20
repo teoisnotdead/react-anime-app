@@ -5,7 +5,7 @@ import Modal from './Modal';
 const CardContainer = () => {
     const [anime, setAnime] = useState([]);
     const getAnime = () => {
-        fetch('http://localhost:3000/anime/list')
+        fetch('https://api-anime-app-production.up.railway.app/anime/list')
             .then((response) => { return response.json() })
             .then((data) => { setAnime(data) });
     }
